@@ -1,0 +1,10 @@
+.title {
+  font-family: "Cardo", "Times New Roman", sans-serif;
+  margin: 0;
+
+  &--h1 {
+    color: $titleContrastColor;
+
+    @include font-style(64px, 78px);
+  }
+}

@@ -1,0 +1,15 @@
+.books__title {
+  margin: 0;
+  margin-bottom: 60px;
+  color: $primaryColor;
+  text-align: center;
+
+  @include font-style(42px, 50px);
+}
+
+.books__list {
+  display: flex;
+  gap: 20px;
+
+  @include list-reset;
+}

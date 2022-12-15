@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Book Pages</title>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Inter&display=swap" rel="stylesheet">
     </head>
     <body class="page__body">
         <header class="page__header header">
@@ -45,7 +48,7 @@
             <section class="main__promo promo">
                 <div class="promo__text promo-text">
                     <span class="promo-text__note">Welcome to Pages!!!</span>
-                    <h1 class="promo-text__title title">Your Books From <br/>The Best Writer.</h1>
+                    <h1 class="promo-text__title title title--h1">Your Books From <br/>The Best Writer.</h1>
                     <p class="promo-text__description">We believe that reading books are essential to a healthy culture.<br/>They’re where authors can connect with readers.</p>
                     <div class="promo-text__wrapper">
                         <button class="promo-text__order-button button">Order Today</button>
@@ -73,19 +76,23 @@
                 <ul class="books__list">
                     <li class="books__item book-item">
                         <img class="book-item__image" src="" alt="Обложка книги с названием Atomic one's.">
-                        <span class="book-item__title title">Atomic One’s</span>
-                        <span class="book-item__price">$ 13.84 USD</span>
-                        <span class="book-item__description">As the book contains theoretical content as well as solved questions.</span>
-                        <span class="book-item__property">Printed Book</span>
-                        <button class="book-item__order-button button button--light">Order Now</button>
+                        <div class="book-item__wrapper">
+                            <span class="book-item__title title">Atomic One’s</span>
+                            <span class="book-item__price">$ 13.84 USD</span>
+                            <span class="book-item__description">As the book contains theoretical content as well as solved questions.</span>
+                            <span class="book-item__property">Printed Book</span>
+                            <button class="book-item__order-button button button--light">Order Now</button>
+                        </div>
                     </li>
                     <li class="books__item book-item">
                         <img class="book-item__image" src="" alt="Обложка книги с названием The dark light.">
-                        <span class="book-item__title title">The Dark Light</span>
-                        <span class="book-item__price">$ 86.11 USD</span>
-                        <span class="book-item__description">As the book contains theoretical content as well as solved questions.</span>
-                        <span class="book-item__property">Printed Book</span>
-                        <button class="book-item__order-button button button--light">Order Now</button>
+                        <div class="book-item__wrapper">
+                            <span class="book-item__title title">The Dark Light</span>
+                            <span class="book-item__price">$ 86.11 USD</span>
+                            <span class="book-item__description">As the book contains theoretical content as well as solved questions.</span>
+                            <span class="book-item__property">Printed Book</span>
+                            <button class="book-item__order-button button button--light">Order Now</button>
+                        </div>
                     </li>
                 </ul>
             </section>
@@ -108,8 +115,8 @@
                             <dd class="numbers__value">Best Seller Awards</dd>
                         </div>
                     </dl>
-                    <div class="author_qr qr">
-                        <img class="qr__code" src="" alt="QR-код со ссылкой на контакты автора.">
+                    <div class="author__qr qr">
+                        <img class="qr__code" width="130" height="130" src="" alt="QR-код со ссылкой на контакты автора.">
                         <div class="qr__description">
                             <span class="qr__author">John Abraham , Ph.d</span>
                             <span class="qr__mail">Mail: johnabraham@gmail.com</span>

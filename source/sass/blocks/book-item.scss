@@ -1,0 +1,39 @@
+.book-item {
+  display: flex;
+  gap: 30px;
+}
+
+.book-item__title {
+  display: block;
+  margin: 0;
+  margin-bottom: 7px;
+  color: $primaryColor;
+
+  @include font-style(32px, 38px);
+}
+
+.book-item__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-item__price {
+  margin-bottom: 17px;
+  color: $secondaryColor;
+
+  @include font-style(21px, 33px);
+}
+
+.book-item__description {
+  margin-bottom: 13px;
+
+  @include font-style(19px, 28px);
+}
+
+.book-item__property {
+  margin-bottom: 27px;
+  color: $primaryColor;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+
+  @include font-style(24px, 28px);
+}

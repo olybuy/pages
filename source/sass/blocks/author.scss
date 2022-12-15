@@ -1,0 +1,22 @@
+.author {
+  display: flex;
+  gap: 150px;
+  background-color: $bgColor;
+}
+
+.author__title {
+  margin-bottom: 33px;
+  color: $primaryColor;
+
+  @include font-style(42px, 50px);
+}
+
+.author__about {
+  margin-bottom: 34px;
+
+  @include font-style(19px, 34px);
+}
+
+.author__numbers {
+  margin-bottom: 70px;
+}

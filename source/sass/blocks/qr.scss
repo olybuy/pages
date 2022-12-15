@@ -1,0 +1,27 @@
+.qr {
+  display: flex;
+  gap: 40px;
+  padding: 15px 0 16px 20px;
+  background-color: $primaryColor;
+  width: 484px;
+  box-sizing: border-box;
+}
+
+.qr__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.qr__author {
+  margin-bottom: 11px;
+  color: $secondaryColor;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+
+  @include font-style(22px, 26px);
+}
+
+.qr__mail,
+.qr__phone {
+  @include font-style(18px, 28px);
+}

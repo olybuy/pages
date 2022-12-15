@@ -1,16 +1,25 @@
 .page {
   height: 100%;
-  background-color: $primaryColor;
 }
 
 .page__body {
-  margin: 0;
-  padding: 0 70px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  width: $desktop-width;
+  box-sizing: border-box;
+}
+
+.page__header {
+  padding: 0 $padding 100px;
+  background-color: $primaryColor;
 }
 
 .page__main {
   flex-grow: 1;
+}
+
+.page__footer {
+  padding: 93px $padding 0;
 }

@@ -1,0 +1,22 @@
+.parameters {
+  display: flex;
+  gap: 70px;
+}
+
+.parameters__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.parameters__item {
+  color: $secondaryTextColor;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+  @include font-style(24px, 29px);
+}
+
+.parameters__value {
+  margin: 0;
+
+  @include font-style(17px, 27px);
+}

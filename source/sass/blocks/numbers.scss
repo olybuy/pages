@@ -1,0 +1,22 @@
+.numbers {
+  display: flex;
+  gap: 26px;
+}
+
+.numbers__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers__item {
+  color: $primaryColor;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+
+  @include font-style(54px, 77px);
+}
+
+.numbers__value {
+  margin: 0;
+
+  @include font-style(17px, 21px);
+}
