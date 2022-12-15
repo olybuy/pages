@@ -1,0 +1,9 @@
+.button {
+  background-color: $secondaryColor;
+  border: none;
+  color: $primaryColor;
+  font-family: "Cardo", Arial, sans-serif;
+  padding: 19px;
+
+  @include font-style(19px, 28px);
+}

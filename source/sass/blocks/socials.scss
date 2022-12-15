@@ -1,0 +1,14 @@
+.socials__list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  @include list-reset;
+}
+
+.socials__link {
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-color: $socialsBgColor;
+}
