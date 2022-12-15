@@ -1,13 +1,357 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Book Pages</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<p>Hello World!</p>
-<p>...and more</p>
-</body>
+<html class="page" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Book Pages</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="page__body">
+        <header class="page__header header">
+            <a class="header__logo logo"></a>
+            <div class="header__socials socials">
+                <ul class="socials__list">
+                    <li class="socials__item">
+                        <a class="socials__link" href="#"></a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="#"></a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+            <nav class="header__nav nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Pages</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="header__cart cart" href="#"></a>
+            <button class="header__order-button button">Order Today</button>
+        </header>
+        <main class="page__main main">
+            <section class="main__promo promo">
+                <div class="promo__text promo-text">
+                    <span class="promo-text__note">Welcome to Pages!!!</span>
+                    <h1 class="promo-text__title title">Your Books From <br/>The Best Writer.</h1>
+                    <p class="promo-text__description">We believe that reading books are essential to a healthy culture.<br/>They’re where authors can connect with readers.</p>
+                    <div class="promo-text__wrapper">
+                        <button class="promo-text__order-button button">Order Today</button>
+                        <a class="promo-text__link" href="#">Read Free Demo</a>
+                    </div>
+                    <dl class="promo-text__parameters parameters">
+                        <div class="parameters__wrapper">
+                            <dt class="parameters__item">Pages:</dt>
+                            <dd class="parameters__value">250pages</dd>
+                        </div>
+                        <div class="parameters__wrapper">
+                            <dt class="parameters__item">Length:</dt>
+                            <dd class="parameters__value">10 Hours</dd>
+                        </div>
+                        <div class="parameters__wrapper">
+                            <dt class="parameters__item">Rating:</dt>
+                            <dd class="parameters__value">4.5/5 (305 ratings)</dd>
+                        </div>
+                    </dl>
+                </div>
+                <img class="promo__image" src="" alt="Обложка книги под названием The dark light.">
+            </section>
+            <section class="main__books books">
+                <h2 class="books__title title">The Author’s Book</h2>
+                <ul class="books__list">
+                    <li class="books__item book-item">
+                        <img class="book-item__image" src="" alt="Обложка книги с названием Atomic one's.">
+                        <span class="book-item__title title">Atomic One’s</span>
+                        <span class="book-item__price">$ 13.84 USD</span>
+                        <span class="book-item__description">As the book contains theoretical content as well as solved questions.</span>
+                        <span class="book-item__property">Printed Book</span>
+                        <button class="book-item__order-button button button--light">Order Now</button>
+                    </li>
+                    <li class="books__item book-item">
+                        <img class="book-item__image" src="" alt="Обложка книги с названием The dark light.">
+                        <span class="book-item__title title">The Dark Light</span>
+                        <span class="book-item__price">$ 86.11 USD</span>
+                        <span class="book-item__description">As the book contains theoretical content as well as solved questions.</span>
+                        <span class="book-item__property">Printed Book</span>
+                        <button class="book-item__order-button button button--light">Order Now</button>
+                    </li>
+                </ul>
+            </section>
+            <section class="main__author author">
+                <img class="author__photo" src="" alt="Фотография седого мужчины в очках за ноутбуком.">
+                <div class="author__wrapper">
+                    <h2 class="author__title title">About the Author</h2>
+                    <p class="author__about">We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
+                    <dl class="author__numbers numbers">
+                        <div class="numbers__wrapper">
+                            <dt class="numbers__item">02</dt>
+                            <dd class="numbers__value">Books Published</dd>
+                        </div>
+                        <div class="numbers__wrapper">
+                            <dt class="numbers__item">4.5</dt>
+                            <dd class="numbers__value">User Reviews</dd>
+                        </div>
+                        <div class="numbers__wrapper">
+                            <dt class="numbers__item">04</dt>
+                            <dd class="numbers__value">Best Seller Awards</dd>
+                        </div>
+                    </dl>
+                    <div class="author_qr qr">
+                        <img class="qr__code" src="" alt="QR-код со ссылкой на контакты автора.">
+                        <div class="qr__description">
+                            <span class="qr__author">John Abraham , Ph.d</span>
+                            <span class="qr__mail">Mail: johnabraham@gmail.com</span>
+                            <span class="qr__phone">Phone: (+2) 123 545 9000</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__trust trust">
+                <h2 class="trust__title title">Trusted By The Best</h2>
+                <ul class="trust__list">
+                    <li class="trust__item trust-item">
+                        <span class="trust-item__title title">Amazen Corp.</span>
+                        <p class="trust-item__description">They has been helping readers, music lovers, and videophiles find quality material.</p>
+                    </li>
+                    <li class="trust__item trust-item">
+                        <span class="trust-item__title title">Megan Books</span>
+                        <p class="trust-item__description">We help physical bookstores manage their overstock to the book inventory.</p>
+                    </li>
+                    <li class="trust__item trust-item">
+                        <span class="trust-item__title title">Megank</span>
+                        <p class="trust-item__description">Bookstore serving up the full spectrum of Black literature and wine black books.</p>
+                    </li>
+                    <li class="trust__item trust-item">
+                        <span class="trust-item__title title">Urban Store</span>
+                        <p class="trust-item__description">We also carry the latest records, issues of all of your favorite comic books.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="main__order order">
+                <h2 class="order__title title">Get Book Copy Today!</h2>
+                <p class="order__description">We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers.</p>
+                <button class="order__button button button--light">Order Today</button>
+            </section>
+            <section class="main__benefits benefits">
+                <h2 class="benefits__title title">What Will You Learn?</h2>
+                <ul class="benefits__list">
+                    <li class="benefits__item benefits-item">
+                        <p class="benefits-item__description">Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+                    </li>
+                    <li class="benefits__item benefits-item">
+                        <p class="benefits-item__description">Consume streaming data using Spark Streaming, Flink, and Storm.</p>
+                    </li>
+                    <li class="benefits__item benefits-item">
+                        <p class="benefits-item__description">Choose an appropriate data storage technology for your application</p>
+                    </li>
+                    <li class="benefits__item benefits-item">
+                        <p class="benefits-item__description">Analyze non-relational data using HBase, Cassandra, and MongoDB.</p>
+                    </li>
+                </ul>
+                <img class="benefits__image" src="" alt="Фотография девушки с книгой в руках.">
+            </section>
+            <section class="main__trail trail">
+                <h2 class="trail__title title">Enhance knowledge & Vision</h2>
+                <ul class="trail__list">
+                    <li class="trail__item trail-item">
+                        <span class="trail-item__title title">Chapter-1 Get Started Intro</span>
+                        <p class="trail-item__description">You can double your knowledge by reading this ever needed book that can last a lifetime.</p>
+                        <dl class="trail-item__properties trail-properties">
+                            <dt class="trail-properties__item">Pages :</dt>
+                            <dd class="trail-properties__value">106pages</dd>
+                            <dt class="trail-properties__item">Length :</dt>
+                            <dd class="trail-properties__value">2 Hours</dd>
+                        </dl>
+                    </li>
+                    <li class="trail__item trail-item">
+                        <span class="trail-item__title title">Chapter-2 The Roman Culture</span>
+                        <p class="trail-item__description">It will help to improve your life career with the perfect and needed knowledge about your life.</p>
+                        <dl class="trail-item__properties trail-properties">
+                            <dt class="trail-properties__item">Pages :</dt>
+                            <dd class="trail-properties__value">180pages</dd>
+                            <dt class="trail-properties__item">Length :</dt>
+                            <dd class="trail-properties__value">3 Hours</dd>
+                        </dl>
+                    </li>
+                    <li class="trail__item trail-item">
+                        <span class="trail-item__title title">Chapter-3 How They Servived</span>
+                        <p class="trail-item__description">We wanted to create an easy, convenient way for you to get your books & support.</p>
+                        <dl class="trail-item__properties trail-properties">
+                            <dt class="trail-properties__item">Pages :</dt>
+                            <dd class="trail-properties__value">250pages</dd>
+                            <dt class="trail-properties__item">Length :</dt>
+                            <dd class="trail-properties__value">4 Hours</dd>
+                        </dl>
+                    </li>
+                    <li class="trail__item trail-item">
+                        <span class="trail-item__title title">Chapter-4 The End Of Romans</span>
+                        <p class="trail-item__description">Promote your book via Pages shop to support your writing & reading career.</p>
+                        <dl class="trail-item__properties trail-properties">
+                            <dt class="trail-properties__item">Pages :</dt>
+                            <dd class="trail-properties__value">175pages</dd>
+                            <dt class="trail-properties__item">Length :</dt>
+                            <dd class="trail-properties__value">3 Hours</dd>
+                        </dl>
+                    </li>
+                </ul>
+                <button class="trail__button button">Start a 15-Days Free Trail</button>
+                <span class="trail__note">Short description about each chapter<br/>Have any questions? Contact us</span>
+            </section>
+            <section class="main__reviews reviews">
+                <div class="reviews__text-wrapper">
+                    <h2 class="reviews__title title">Words From Our Readers</h2>
+                    <p class="reviews__description">We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
+                    <div class="reviews__rating rating">
+                        <div class="rating__stars"><span class="rating__numbers">(4.8/5)</span></div>
+                        <span class="rating__note">Overall Customer Ratings</span>
+                    </div>
+                </div>
+                <ul class="reviews__list">
+                    <li class="reviews__item reviews-item">
+                        <img class="reviews-item__avatar" src="" alt="Фотография лица кудрявого мужчины на аватарке.">
+                        <span class="reviews-item__name">James Williams</span>
+                        <div class="reviews-item__rating rating"></div>
+                        <q class="reviews-item__quote">Great Books Collections</q>
+                        <p class="reviews-item__description">I was searching this book for many years and I was happy that I could find it here.</p>
+                    </li>
+                    <li class="reviews__item reviews-item">
+                        <img class="reviews-item__avatar" src="" alt="Фотография лица молодого мужчины в очках на аватарке.">
+                        <span class="reviews-item__name">Chris Adams</span>
+                        <div class="reviews-item__rating rating"></div>
+                        <q class="reviews-item__quote">Perfect Response Author</q>
+                        <p class="reviews-item__description">I had a question about the book and the author response was great & comfort.</p>
+                    </li>
+                    <li class="reviews__item reviews-item">
+                        <img class="reviews-item__avatar" src="" alt="Фотография лица молодой белокурой девушки на аватарке.">
+                        <span class="reviews-item__name">Angeline Flora</span>
+                        <div class="reviews-item__rating rating"></div>
+                        <q class="reviews-item__quote">Creative Writing Skill</q>
+                        <p class="reviews-item__description">Sent an email after to books arrived to ask about the author & I received a reply.</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="main__articles articles">
+                <h2 class="articles__title title">Articles & Resources</h2>
+                <ul class="articles__list">
+                    <li class="articles__item articles-item">
+                        <img class="articles-item__image" src="" alt="Женщина в очках что-то записывает в блокнот, глядя в телефон.">
+                        <span class="articles-item__title title">Significant reading has more info number</span>
+                        <p class="articles-item__description">Override the digital divide with additional clickthroughs from DevOps for real-time schemas.</p>
+                        <a class="articles-item__link" href="#">Readmore</a>
+                        <time datetime="2021-10-06">October 6, 2021</time>
+                    </li>
+                    <li class="articles__item articles-item">
+                        <img class="articles-item__image" src="" alt="Девушка с собачкой читают книгу.">
+                        <span class="articles-item__title title">Many variations of pass majority have suffered</span>
+                        <p class="articles-item__description">Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta test.</p>
+                        <a class="articles-item__link" href="#">Readmore</a>
+                        <time datetime="2021-10-06">October 6, 2021</time>
+                    </li>
+                    <li class="articles__item articles-item">
+                        <img class="articles-item__image" src="" alt="Темнокожий мужчина в очках читает книгу.">
+                        <span class="articles-item__title title">Words which don’t look even slightly believable</span>
+                        <p class="articles-item__description">Podcasting operational change management inside of workflows to establish a framework.</p>
+                        <a class="articles-item__link" href="#">Readmore</a>
+                        <time datetime="2021-10-06">October 6, 2021</time>
+                    </li>
+                </ul>
+            </section>
+            <section class="main__subscribe subscribe">
+                <h2 class="subscribe__title title">Get The Best Updates</h2>
+                <p class="subscribe__description">Subscribe with your mail id to know the current update in book<br/>edition at your fingertip with in a minute.</p>
+                <form class="subscribe__form subscribe-form" action="" method="post">
+                    <label class="subscribe-form__label">
+                        <span class="visually-hidden">Enter Your Email ID</span>
+                        <input class="subscribe-form__input" type="email" placeholder="Your Email ID...">
+                    </label>
+                    <button class="subscribe-form__button button" type="button">Subscribe</button>
+                </form>
+            </section>
+        </main>
+        <footer class="page__footer footer">
+            <a class="header__logo logo"></a>
+            <div class="header__socials socials">
+                <ul class="socials__list">
+                    <li class="socials__item">
+                        <a class="socials__link" href="#"></a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="#"></a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="#"></a>
+                    </li>
+                    <li class="socials__item">
+                        <a class="socials__link" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__explore explore">
+                <span class="explore__title">Explore</span>
+                <ul class="explore__list">
+                    <li class="explore__item">
+                        <a class="explore__link" href="#">Home</a>
+                    </li>
+                    <li class="explore__item">
+                        <a class="explore__link" href="#">About</a>
+                    </li>
+                    <li class="explore__item">
+                        <a class="explore__link" href="#">Articles</a>
+                    </li>
+                    <li class="explore__item">
+                        <a class="explore__link" href="#">Our Store</a>
+                    </li>
+                    <li class="explore__item">
+                        <a class="explore__link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__utility utility">
+                <span class="explore__title">Utility Pages</span>
+                <ul class="utility__list">
+                    <li class="utility__item">
+                        <a class="utility__link" href="#">Style Guide</a>
+                    </li>
+                    <li class="utility__item">
+                        <a class="utility__link" href="#">404 Not Found</a>
+                    </li>
+                    <li class="utility__item">
+                        <a class="utility__link" href="#">Password Protected</a>
+                    </li>
+                    <li class="utility__item">
+                        <a class="utility__link" href="#">Licenses</a>
+                    </li>
+                    <li class="utility__item">
+                        <a class="utility__link" href="#">Changelog</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__contacts contacts">
+                <span class="contacts__title">Keep in Touch</span>
+                <dl class="contacts__list">
+                    <dt class="contacts__item">Address :</dt>
+                    <dd class="contacts__value">24A Kingston St, Los Vegas <br/>NC 28202, USA.</dd>
+                    <dt class="contacts__item">Mail :</dt>
+                    <dd class="contacts__value">support@pages.com</dd>
+                    <dt class="contacts__item">Phone :</dt>
+                    <dd class="contacts__value">(+22) 123 - 4567 - 900</dd>
+                </dl>
+            </div>
+            <div class="footer__copyright copyright">
+                <p class="copyright__text">© Drafted by VictorFlow - Powered by Webflow</p>
+            </div>
+        </footer>
+    </body>
 </html>
