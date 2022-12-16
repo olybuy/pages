@@ -1,0 +1,39 @@
+.reviews-item {
+  padding: 30px 43px 24px 35px;
+  width: 381px;
+  height: 292px;
+  background-color: $primaryColor;
+  box-sizing: border-box;
+}
+
+.reviews-item__wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.reviews-item__avatar {
+  width: 85px;
+  height: 85px;
+}
+
+.reviews-item__name {
+  display: block;
+  margin-bottom: 15px;
+  color: $secondaryTextColor;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+
+  @include font-style(24px, 29px);
+}
+
+.reviews-item__quote {
+  color: $secondaryTextColor;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+
+  @include font-style(22px, 33px);
+}
+
+.reviews-item__description {
+  color: $contrastTextColor;
+
+  @include font-style(18px, 29px);
+}

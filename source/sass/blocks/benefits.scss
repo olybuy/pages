@@ -1,0 +1,20 @@
+.benefits__title {
+  margin-bottom: 116px;
+  color: $primaryColor;
+  text-align: center;
+
+  @include font-style(42px, 50px);
+}
+
+.benefits__wrapper {
+  display: flex;
+  gap: 109px;
+}
+
+.benefits__list {
+  display: grid;
+  grid-template-columns: repeat(2, 303px);
+  gap: 30px;
+
+  @include list-reset;
+}

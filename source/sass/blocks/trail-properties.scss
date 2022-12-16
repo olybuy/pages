@@ -1,0 +1,23 @@
+.trail-properties {
+  display: flex;
+  gap: 45px;
+}
+
+.trail-properties__wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: end;
+}
+
+.trail-properties__item {
+  color: $primaryColor;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+
+  @include font-style(22px, 30px);
+}
+
+.trail-properties__value {
+  margin: 0;
+
+  @include font-style(17px, 27px);
+}

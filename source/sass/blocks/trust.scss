@@ -1,0 +1,14 @@
+.trust__title {
+  margin-bottom: 76px;
+  color: $primaryColor;
+  text-align: center;
+
+  @include font-style(42px, 50px);
+}
+
+.trust__list {
+  display: flex;
+  text-align: center;
+
+  @include list-reset;
+}

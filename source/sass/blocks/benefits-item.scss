@@ -1,0 +1,15 @@
+.benefits-item {
+  padding: 30px;
+  background-color: $benefitsColor;
+  width: 303px;
+  height: 272px;
+  box-sizing: border-box;
+}
+
+.benefits-item__description {
+  margin: 0;
+  color: $primaryColor;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+
+  @include font-style(24px, 33px);
+}

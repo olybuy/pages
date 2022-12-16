@@ -1,0 +1,10 @@
+.trust-item__title {
+  margin-bottom: 19px;
+  color: $primaryColor;
+
+  @include font-style(24px, 29px);
+}
+
+.trust-item__description {
+  @include font-style(19px, 28px);
+}

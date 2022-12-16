@@ -153,21 +153,23 @@
             </section>
             <section class="main__benefits benefits">
                 <h2 class="benefits__title title">What Will You Learn?</h2>
-                <ul class="benefits__list">
-                    <li class="benefits__item benefits-item">
-                        <p class="benefits-item__description">Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
-                    </li>
-                    <li class="benefits__item benefits-item">
-                        <p class="benefits-item__description">Consume streaming data using Spark Streaming, Flink, and Storm.</p>
-                    </li>
-                    <li class="benefits__item benefits-item">
-                        <p class="benefits-item__description">Choose an appropriate data storage technology for your application</p>
-                    </li>
-                    <li class="benefits__item benefits-item">
-                        <p class="benefits-item__description">Analyze non-relational data using HBase, Cassandra, and MongoDB.</p>
-                    </li>
-                </ul>
-                <img class="benefits__image" src="" alt="Фотография девушки с книгой в руках.">
+                <div class="benefits__wrapper">
+                    <ul class="benefits__list">
+                        <li class="benefits__item benefits-item">
+                            <p class="benefits-item__description">Use HDFS & Map Reduce for storing & analyzing data at scale.</p>
+                        </li>
+                        <li class="benefits__item benefits-item">
+                            <p class="benefits-item__description">Consume streaming data using Spark Streaming, Flink, and Storm.</p>
+                        </li>
+                        <li class="benefits__item benefits-item">
+                            <p class="benefits-item__description">Choose an appropriate data storage technology for your application</p>
+                        </li>
+                        <li class="benefits__item benefits-item">
+                            <p class="benefits-item__description">Analyze non-relational data using HBase, Cassandra, and MongoDB.</p>
+                        </li>
+                    </ul>
+                    <img class="benefits__image" src="" alt="Фотография девушки с книгой в руках.">
+                </div>
             </section>
             <section class="main__trail trail">
                 <h2 class="trail__title title">Enhance knowledge & Vision</h2>
@@ -176,40 +178,56 @@
                         <span class="trail-item__title title">Chapter-1 Get Started Intro</span>
                         <p class="trail-item__description">You can double your knowledge by reading this ever needed book that can last a lifetime.</p>
                         <dl class="trail-item__properties trail-properties">
-                            <dt class="trail-properties__item">Pages :</dt>
-                            <dd class="trail-properties__value">106pages</dd>
-                            <dt class="trail-properties__item">Length :</dt>
-                            <dd class="trail-properties__value">2 Hours</dd>
+                            <div class="trail-properties__wrapper">
+                                <dt class="trail-properties__item">Pages :</dt>
+                                <dd class="trail-properties__value">106pages</dd>
+                            </div>
+                            <div class="trail-properties__wrapper">
+                                <dt class="trail-properties__item">Length :</dt>
+                                <dd class="trail-properties__value">2 Hours</dd>
+                            </div>
                         </dl>
                     </li>
                     <li class="trail__item trail-item">
                         <span class="trail-item__title title">Chapter-2 The Roman Culture</span>
                         <p class="trail-item__description">It will help to improve your life career with the perfect and needed knowledge about your life.</p>
                         <dl class="trail-item__properties trail-properties">
-                            <dt class="trail-properties__item">Pages :</dt>
-                            <dd class="trail-properties__value">180pages</dd>
-                            <dt class="trail-properties__item">Length :</dt>
-                            <dd class="trail-properties__value">3 Hours</dd>
+                            <div class="trail-properties__wrapper">
+                                <dt class="trail-properties__item">Pages :</dt>
+                                <dd class="trail-properties__value">180pages</dd>
+                            </div>
+                            <div class="trail-properties__wrapper">
+                                <dt class="trail-properties__item">Length :</dt>
+                                <dd class="trail-properties__value">3 Hours</dd>
+                            </div>
                         </dl>
                     </li>
                     <li class="trail__item trail-item">
                         <span class="trail-item__title title">Chapter-3 How They Servived</span>
                         <p class="trail-item__description">We wanted to create an easy, convenient way for you to get your books & support.</p>
                         <dl class="trail-item__properties trail-properties">
-                            <dt class="trail-properties__item">Pages :</dt>
-                            <dd class="trail-properties__value">250pages</dd>
-                            <dt class="trail-properties__item">Length :</dt>
-                            <dd class="trail-properties__value">4 Hours</dd>
+                            <div class="trail-properties__wrapper">
+                                <dt class="trail-properties__item">Pages :</dt>
+                                <dd class="trail-properties__value">250pages</dd>
+                            </div>
+                            <div class="trail-properties__wrapper">
+                                <dt class="trail-properties__item">Length :</dt>
+                                <dd class="trail-properties__value">4 Hours</dd>
+                            </div>
                         </dl>
                     </li>
                     <li class="trail__item trail-item">
                         <span class="trail-item__title title">Chapter-4 The End Of Romans</span>
                         <p class="trail-item__description">Promote your book via Pages shop to support your writing & reading career.</p>
                         <dl class="trail-item__properties trail-properties">
-                            <dt class="trail-properties__item">Pages :</dt>
-                            <dd class="trail-properties__value">175pages</dd>
-                            <dt class="trail-properties__item">Length :</dt>
-                            <dd class="trail-properties__value">3 Hours</dd>
+                            <div class="trail-properties__wrapper">
+                                <dt class="trail-properties__item">Pages :</dt>
+                                <dd class="trail-properties__value">175pages</dd>
+                            </div>
+                            <div class="trail-properties__wrapper">
+                                <dt class="trail-properties__item">Length :</dt>
+                                <dd class="trail-properties__value">3 Hours</dd>
+                            </div>
                         </dl>
                     </li>
                 </ul>
@@ -227,23 +245,35 @@
                 </div>
                 <ul class="reviews__list">
                     <li class="reviews__item reviews-item">
-                        <img class="reviews-item__avatar" src="" alt="Фотография лица кудрявого мужчины на аватарке.">
-                        <span class="reviews-item__name">James Williams</span>
-                        <div class="reviews-item__rating rating"></div>
+                        <div class="reviews-item__wrapper">
+                            <img class="reviews-item__avatar" src="" alt="">
+                            <div class="reviews-item__name-wrapper">
+                                <span class="reviews-item__name">James Williams</span>
+                                <div class="reviews-item__rating rating"></div>
+                            </div>
+                        </div>
                         <q class="reviews-item__quote">Great Books Collections</q>
                         <p class="reviews-item__description">I was searching this book for many years and I was happy that I could find it here.</p>
                     </li>
                     <li class="reviews__item reviews-item">
-                        <img class="reviews-item__avatar" src="" alt="Фотография лица молодого мужчины в очках на аватарке.">
-                        <span class="reviews-item__name">Chris Adams</span>
-                        <div class="reviews-item__rating rating"></div>
+                        <div class="reviews-item__wrapper">
+                            <img class="reviews-item__avatar" src="" alt="">
+                            <div class="reviews-item__name-wrapper">
+                                <span class="reviews-item__name">Chris Adams</span>
+                                <div class="reviews-item__rating rating"></div>
+                            </div>
+                        </div>
                         <q class="reviews-item__quote">Perfect Response Author</q>
                         <p class="reviews-item__description">I had a question about the book and the author response was great & comfort.</p>
                     </li>
                     <li class="reviews__item reviews-item">
-                        <img class="reviews-item__avatar" src="" alt="Фотография лица молодой белокурой девушки на аватарке.">
-                        <span class="reviews-item__name">Angeline Flora</span>
-                        <div class="reviews-item__rating rating"></div>
+                        <div class="reviews-item__wrapper">
+                            <img class="reviews-item__avatar" src="" alt="">
+                            <div class="reviews-item__name-wrapper">
+                                <span class="reviews-item__name">Angeline Flora</span>
+                                <div class="reviews-item__rating rating"></div>
+                            </div>
+                        </div>
                         <q class="reviews-item__quote">Creative Writing Skill</q>
                         <p class="reviews-item__description">Sent an email after to books arrived to ask about the author & I received a reply.</p>
                     </li>
@@ -253,21 +283,21 @@
                 <h2 class="articles__title title">Articles & Resources</h2>
                 <ul class="articles__list">
                     <li class="articles__item articles-item">
-                        <img class="articles-item__image" src="" alt="Женщина в очках что-то записывает в блокнот, глядя в телефон.">
+                        <img class="articles-item__image" src="" alt="">
                         <span class="articles-item__title title">Significant reading has more info number</span>
                         <p class="articles-item__description">Override the digital divide with additional clickthroughs from DevOps for real-time schemas.</p>
                         <a class="articles-item__link" href="#">Readmore</a>
                         <time datetime="2021-10-06">October 6, 2021</time>
                     </li>
                     <li class="articles__item articles-item">
-                        <img class="articles-item__image" src="" alt="Девушка с собачкой читают книгу.">
+                        <img class="articles-item__image" src="" alt="">
                         <span class="articles-item__title title">Many variations of pass majority have suffered</span>
                         <p class="articles-item__description">Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta test.</p>
                         <a class="articles-item__link" href="#">Readmore</a>
                         <time datetime="2021-10-06">October 6, 2021</time>
                     </li>
                     <li class="articles__item articles-item">
-                        <img class="articles-item__image" src="" alt="Темнокожий мужчина в очках читает книгу.">
+                        <img class="articles-item__image" src="" alt="">
                         <span class="articles-item__title title">Words which don’t look even slightly believable</span>
                         <p class="articles-item__description">Podcasting operational change management inside of workflows to establish a framework.</p>
                         <a class="articles-item__link" href="#">Readmore</a>

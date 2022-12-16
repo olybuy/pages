@@ -1,0 +1,21 @@
+.order {
+  background-color: $primaryColor;
+}
+
+.order__title {
+  margin-bottom: 27px;
+  color: $titleContrastColor;
+
+  @include font-style(45px, 54px);
+}
+
+.order__description {
+  margin-bottom: 27px;
+  color: $contrastTextColor;
+
+  @include font-style(19px, 28px);
+}
+
+.order__button {
+  color: $secondaryTextColor;
+}

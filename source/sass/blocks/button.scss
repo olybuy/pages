@@ -9,7 +9,7 @@
   @include font-style(19px, 28px);
 
   &--light {
-    background-color: $buttonBgColor;
+    background-color: inherit;
     border: 2px solid $secondaryColor;
   }
 }

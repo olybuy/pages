@@ -1,0 +1,34 @@
+.trail {
+  background-color: $benefitsColor;
+}
+
+.trail__title {
+  margin-bottom: 96px;
+  color: $primaryColor;
+  text-align: center;
+
+  @include font-style(42px, 50px);
+}
+
+.trail__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
+  @include list-reset;
+
+  margin-bottom: 70px;
+}
+
+.trail__button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 34px;
+  width: 429px;
+}
+
+.trail__note {
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+}

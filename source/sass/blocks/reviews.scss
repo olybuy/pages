@@ -1,0 +1,30 @@
+.reviews {
+  display: flex;
+  gap: 30px;
+}
+
+.reviews__text-wrapper {
+  width: 468px;
+}
+
+.reviews__title {
+  margin-bottom: 33px;
+  color: $primaryColor;
+
+  @include font-style(42px, 50px);
+}
+
+.reviews__description {
+  margin: 0;
+  margin-bottom: 14px;
+
+  @include font-style(19px, 34px);
+}
+
+.reviews__list {
+  display: grid;
+  grid-template-columns: repeat(2, 381px);
+  gap: 30px;
+
+  @include list-reset;
+}
