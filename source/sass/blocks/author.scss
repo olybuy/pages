@@ -1,7 +1,12 @@
 .author {
+  position: relative;
   display: flex;
   gap: 150px;
   background-color: $bgColor;
+}
+
+.author__wrapper {
+  width: 605px;
 }
 
 .author__title {
@@ -19,4 +24,17 @@
 
 .author__numbers {
   margin-bottom: 70px;
+}
+
+.author__photo {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+}
+
+.author__border {
+  display: block;
+  width: 525px;
+  height: 620px;
+  border: 10px solid $secondaryColor;
 }
