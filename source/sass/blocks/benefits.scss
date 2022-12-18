@@ -15,6 +15,7 @@
   display: grid;
   grid-template-columns: repeat(2, 303px);
   gap: 30px;
+  counter-reset: benefits;
 
   @include list-reset;
 }

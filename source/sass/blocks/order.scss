@@ -1,21 +1,37 @@
 .order {
   background-color: $primaryColor;
+  background-image: url("../img/bg/books.png");
+  background-position: top 70px right 70px;
+  background-repeat: no-repeat;
+
+  @media screen and (min-resolution: 2dppx){
+    background-image: url("../img/bg/books@2x.png");
+  }
 }
 
 .order__title {
+  position: relative;
   margin-bottom: 27px;
+  padding-bottom: 24px;
   color: $titleContrastColor;
 
   @include font-style(45px, 54px);
+
+  &::before {
+    @include title-underline;
+  }
 }
 
 .order__description {
+  margin: 0;
   margin-bottom: 27px;
+  width: 610px;
   color: $contrastTextColor;
 
   @include font-style(19px, 28px);
 }
 
 .order__button {
+  min-width: 220px;
   color: $secondaryTextColor;
 }

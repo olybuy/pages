@@ -5,8 +5,7 @@
 
 .book-item__title {
   display: block;
-  margin: 0;
-  margin-bottom: 7px;
+  margin: 38px 0 7px 0;
   color: $primaryColor;
 
   @include font-style(32px, 38px);
@@ -36,4 +35,8 @@
   font-family: "Cardo", "Times New Roman", sans-serif;
 
   @include font-style(24px, 28px);
+}
+
+.book-item__order-button {
+  max-width: 206px;
 }

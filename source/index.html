@@ -86,13 +86,21 @@
                         </div>
                     </dl>
                 </div>
-                <img class="promo__image" src="img/content/dark-light.jpg" width="614" height="822" alt="Обложка книги под названием The dark light.">
+                <picture>
+                    <source type="image/webp" srcset="img/content/dark-light.webp 1x, img/content/dark-light@2x.webp 2x">
+                    <source srcset="img/content/dark-light.jpg 1x, img/content/dark-light@2x.jpg">
+                    <img class="promo__image" src="img/content/dark-light.jpg" width="614" height="822" alt="Обложка книги под названием The dark light.">
+                </picture>
             </section>
             <section class="main__books books">
-                <h2 class="books__title title">The Author’s Book</h2>
+                <h2 class="books__title title title--main title--center">The Author’s Book</h2>
                 <ul class="books__list">
                     <li class="books__item book-item">
-                        <img class="book-item__image" src="img/content/atomic-min.jpg" width="307" height="404" alt="Обложка книги с названием Atomic one's.">
+                        <picture>
+                            <source type="image/webp" srcset="img/content/atomic-min.webp 1x, img/content/atomic-min@2x.webp 2x">
+                            <source srcset="img/content/atomic-min.jpg 1x, img/content/atomic-min@2x.jpg">
+                            <img class="book-item__image" src="img/content/atomic-min.jpg" width="307" height="404" alt="Обложка книги с названием Atomic one's.">
+                        </picture>
                         <div class="book-item__wrapper">
                             <span class="book-item__title title">Atomic One’s</span>
                             <span class="book-item__price">$ 13.84 USD</span>
@@ -102,7 +110,11 @@
                         </div>
                     </li>
                     <li class="books__item book-item">
-                        <img class="book-item__image" src="img/content/dark-light-min.jpg" width="307" height="404" alt="Обложка книги с названием The dark light.">
+                        <picture>
+                            <source type="image/webp" srcset="img/content/dark-light-min.webp 1x, img/content/dark-light-min@2x.webp 2x">
+                            <source srcset="img/content/dark-light-min.jpg 1x, img/content/dark-light-min@2x.jpg">
+                            <img class="book-item__image" src="img/content/dark-light-min.jpg" width="307" height="404" alt="Обложка книги с названием The dark light.">
+                        </picture>
                         <div class="book-item__wrapper">
                             <span class="book-item__title title">The Dark Light</span>
                             <span class="book-item__price">$ 86.11 USD</span>
@@ -114,9 +126,13 @@
                 </ul>
             </section>
             <section class="main__author author">
-                <img class="author__photo" src="img/content/author.jpg" width="525" height="620" alt="Фотография седого мужчины в очках за ноутбуком.">
+                <picture>
+                    <source type="image/webp" srcset="img/content/author.webp 1x, img/content/author@2x.webp 2x">
+                    <source srcset="img/content/author.jpg 1x, img/content/author@2x.jpg">
+                    <img class="author__photo" src="img/content/author.jpg" width="525" height="620" alt="Фотография седого мужчины в очках за ноутбуком.">
+                </picture>
                 <div class="author__wrapper">
-                    <h2 class="author__title title">About the Author</h2>
+                    <h2 class="author__title title title--main">About the Author</h2>
                     <p class="author__about">We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
                     <dl class="author__numbers numbers">
                         <div class="numbers__wrapper">
@@ -133,7 +149,11 @@
                         </div>
                     </dl>
                     <div class="author__qr qr">
-                        <img class="qr__code" width="130" height="130" src="" alt="QR-код со ссылкой на контакты автора.">
+                        <picture>
+                            <source type="image/webp" srcset="img/content/qr.webp 1x, img/content/qr@2x.webp 2x">
+                            <source srcset="img/content/qr.jpg 1x, img/content/qr@2x.jpg">
+                            <img class="qr__code" width="130" height="130" src="img/content/qr.jpg" alt="QR-код со ссылкой на контакты автора.">
+                        </picture>
                         <div class="qr__description">
                             <span class="qr__author">John Abraham , Ph.d</span>
                             <span class="qr__mail">Mail: johnabraham@gmail.com</span>
@@ -143,7 +163,7 @@
                 </div>
             </section>
             <section class="main__trust trust">
-                <h2 class="trust__title title">Trusted By The Best</h2>
+                <h2 class="trust__title title title--main title--center">Trusted By The Best</h2>
                 <ul class="trust__list">
                     <li class="trust__item trust-item trust-item--amazen">
                         <span class="trust-item__title title">Amazen Corp.</span>
@@ -169,7 +189,7 @@
                 <button class="order__button button button--light">Order Today</button>
             </section>
             <section class="main__benefits benefits">
-                <h2 class="benefits__title title">What Will You Learn?</h2>
+                <h2 class="benefits__title title title--main title--center">What Will You Learn?</h2>
                 <div class="benefits__wrapper">
                     <ul class="benefits__list">
                         <li class="benefits__item benefits-item">
@@ -185,11 +205,15 @@
                             <p class="benefits-item__description">Analyze non-relational data using HBase, Cassandra, and MongoDB.</p>
                         </li>
                     </ul>
-                    <img class="benefits__image" src="img/content/girl-book.jpg" width="535" height="632" alt="Фотография девушки с книгой в руках.">
+                    <picture>
+                        <source type="image/webp" srcset="img/content/girl-book.webp 1x, img/content/girl-book@2x.webp 2x">
+                        <source srcset="img/content/girl-book.jpg 1x, img/content/girl-book@2x.jpg">
+                        <img class="benefits__image" src="img/content/girl-book.jpg" width="535" height="632" alt="Фотография девушки с книгой в руках.">
+                    </picture>
                 </div>
             </section>
             <section class="main__trail trail">
-                <h2 class="trail__title title">Enhance knowledge & Vision</h2>
+                <h2 class="trail__title title title--main title--center">Enhance knowledge & Vision</h2>
                 <ul class="trail__list">
                     <li class="trail__item trail-item">
                         <span class="trail-item__title title">Chapter-1 Get Started Intro</span>
@@ -253,7 +277,7 @@
             </section>
             <section class="main__reviews reviews">
                 <div class="reviews__text-wrapper">
-                    <h2 class="reviews__title title">Words From Our Readers</h2>
+                    <h2 class="reviews__title title title--main">Words From Our Readers</h2>
                     <p class="reviews__description">We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
                     <div class="reviews__rating rating">
                         <div class="rating__stars"><span class="rating__numbers">(4.8/5)</span></div>
@@ -263,7 +287,11 @@
                 <ul class="reviews__list">
                     <li class="reviews__item reviews-item">
                         <div class="reviews-item__wrapper">
-                            <img class="reviews-item__avatar" src="img/content/avatar-1.png" width="85" height="85" alt="Фотография кудрявого парня на аватарке.">
+                            <picture>
+                                <source type="image/webp" srcset="img/content/avatar-1.webp 1x, img/content/avatar-1@2x.webp 2x">
+                                <source srcset="img/content/avatar-1.png 1x, img/content/avatar-1@2x.png">
+                                <img class="reviews-item__avatar" src="img/content/avatar-1.png" width="85" height="85" alt="Фотография кудрявого парня на аватарке.">
+                            </picture>
                             <div class="reviews-item__name-wrapper">
                                 <span class="reviews-item__name">James Williams</span>
                                 <div class="reviews-item__rating rating"></div>
@@ -274,7 +302,11 @@
                     </li>
                     <li class="reviews__item reviews-item">
                         <div class="reviews-item__wrapper">
-                            <img class="reviews-item__avatar" src="img/content/avatar-2.png" width="85" height="85" alt="Фотография молодого человека в очках на аватарке.">
+                            <picture>
+                                <source type="image/webp" srcset="img/content/avatar-2.webp 1x, img/content/avatar-2@2x.webp 2x">
+                                <source srcset="img/content/avatar-2.png 1x, img/content/avatar-2@2x.png">
+                                <img class="reviews-item__avatar" src="img/content/avatar-2.png" width="85" height="85" alt="Фотография молодого человека в очках на аватарке.">
+                            </picture>
                             <div class="reviews-item__name-wrapper">
                                 <span class="reviews-item__name">Chris Adams</span>
                                 <div class="reviews-item__rating rating"></div>
@@ -285,7 +317,11 @@
                     </li>
                     <li class="reviews__item reviews-item">
                         <div class="reviews-item__wrapper">
-                            <img class="reviews-item__avatar" src="img/content/avatar-3.png" width="85" height="85" alt="Фотография светловолосой девушки на аватарке">
+                            <picture>
+                                <source type="image/webp" srcset="img/content/avatar-3.webp 1x, img/content/avatar-3@2x.webp 2x">
+                                <source srcset="img/content/avatar-3.png 1x, img/content/avatar-3@2x.png">
+                                <img class="reviews-item__avatar" src="img/content/avatar-3.png" width="85" height="85" alt="Фотография светловолосой девушки на аватарке">
+                            </picture>
                             <div class="reviews-item__name-wrapper">
                                 <span class="reviews-item__name">Angeline Flora</span>
                                 <div class="reviews-item__rating rating"></div>
@@ -297,10 +333,14 @@
                 </ul>
             </section>
             <section class="main__articles articles">
-                <h2 class="articles__title title">Articles & Resources</h2>
+                <h2 class="articles__title title title--main title--center">Articles & Resources</h2>
                 <ul class="articles__list">
                     <li class="articles__item articles-item">
-                        <img class="articles-item__image" src="img/content/article-1.jpg" width="420" height="350" alt="Девушка в очках за ноутбуком с телефоном в руках делает запись в блокноте.">
+                        <picture>
+                            <source type="image/webp" srcset="img/content/article-1.webp 1x, img/content/article-1@2x.webp 2x">
+                            <source srcset="img/content/article-1.jpg 1x, img/content/article-1@2x.jpg">
+                            <img class="articles-item__image" src="img/content/article-1.jpg" width="420" height="350" alt="Девушка в очках за ноутбуком с телефоном в руках делает запись в блокноте.">
+                        </picture>
                         <div class="articles-item__wrapper">
                             <span class="articles-item__title title">Significant reading has more info number</span>
                             <p class="articles-item__description">Override the digital divide with additional clickthroughs from DevOps for real-time schemas.</p>
@@ -311,7 +351,11 @@
                         </div>
                     </li>
                     <li class="articles__item articles-item">
-                        <img class="articles-item__image" src="img/content/article-2.jpg" width="420" height="350" alt="Девушка в очках с собакой читает книгу.">
+                        <picture>
+                            <source type="image/webp" srcset="img/content/article-2.webp 1x, img/content/article-2@2x.webp 2x">
+                            <source srcset="img/content/article-2.jpg 1x, img/content/article-2@2x.jpg">
+                            <img class="articles-item__image" src="img/content/article-2.jpg" width="420" height="350" alt="Девушка в очках с собакой читает книгу.">
+                        </picture>
                         <div class="articles-item__wrapper">
                             <span class="articles-item__title title">Many variations of pass majority have suffered</span>
                             <p class="articles-item__description">Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta test.</p>
@@ -322,7 +366,11 @@
                         </div>
                     </li>
                     <li class="articles__item articles-item">
-                        <img class="articles-item__image" src="img/content/article-3.jpg" width="420" height="350" alt="Темнокожий парень в очках читает книгу.">
+                        <picture>
+                            <source type="image/webp" srcset="img/content/article-3.webp 1x, img/content/article-3@2x.webp 2x">
+                            <source srcset="img/content/article-3.jpg 1x, img/content/article-3@2x.jpg">
+                            <img class="articles-item__image" src="img/content/article-3.jpg" width="420" height="350" alt="Темнокожий парень в очках читает книгу.">
+                        </picture>
                         <div class="articles-item__wrapper">
                             <span class="articles-item__title title">Words which don’t look even slightly believable</span>
                             <p class="articles-item__description">Podcasting operational change management inside of workflows to establish a framework.</p>
@@ -336,7 +384,7 @@
             </section>
             <section class="main__subscribe subscribe">
                 <div class="subscribe__wrapper">
-                    <h2 class="subscribe__title title">Get The Best Updates</h2>
+                    <h2 class="subscribe__title title title--main title--center">Get The Best Updates</h2>
                     <p class="subscribe__description">Subscribe with your mail id to know the current update in book<br/>edition at your fingertip with in a minute.</p>
                     <form class="subscribe__form subscribe-form" action="" method="post">
                         <label class="subscribe-form__label">

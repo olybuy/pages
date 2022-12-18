@@ -4,6 +4,8 @@
   width: 303px;
   height: 272px;
   box-sizing: border-box;
+
+  @include add-number;
 }
 
 .benefits-item__description {

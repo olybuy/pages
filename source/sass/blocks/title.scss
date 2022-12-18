@@ -8,4 +8,25 @@
 
     @include font-style(64px, 78px);
   }
+
+  &--main {
+    position: relative;
+    padding-bottom: 23px;
+
+    &::before {
+      position: absolute;
+      bottom: 0;
+      width: 50px;
+      height: 3px;
+      background-color: $secondaryColor;
+      content: "";
+    }
+  }
+
+  &--center {
+    &::before {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
 }

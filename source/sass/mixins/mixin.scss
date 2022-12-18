@@ -8,3 +8,32 @@
   padding: 0;
   list-style-type: none;
 }
+
+@mixin title-underline {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: $secondaryColor;
+    content: "";
+}
+
+@mixin add-number {
+  &::before {
+    display: block;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $secondaryColor;
+    color: $primaryColor;
+    font-family: "Cardo", "Times New Roman", sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    counter-increment: benefits;
+    content: "0" counter(benefits);
+
+    @include font-style(23px, 29px);
+  }
+}

@@ -9,6 +9,10 @@
   text-align: center;
 
   @include font-style(42px, 50px);
+
+  &::before {
+    background-color: $primaryColor;
+  }
 }
 
 .subscribe__description {
