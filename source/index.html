@@ -11,17 +11,34 @@
     </head>
     <body class="page__body">
         <header class="page__header header">
-            <a class="header__logo logo"></a>
+            <a class="header__logo logo">
+                <img src="img/logo.svg" width="119" height="35" alt="Логотип с изображением книги и надписью Pages.">
+            </a>
             <div class="header__socials socials">
                 <ul class="socials__list">
                     <li class="socials__item">
-                        <a class="socials__link" href="#"></a>
+                        <a class="socials__link" href="#">
+                            <span class="visually-hidden">Facebook</span>
+                            <svg class="socials__icon" width="10" height="16" aria-hidden="true">
+                                <use href="img/sprite.svg#fb"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="socials__item">
-                        <a class="socials__link" href="#"></a>
+                        <a class="socials__link" href="#">
+                            <span class="visually-hidden">Twitter</span>
+                            <svg class="socials__icon" width="16" height="14" aria-hidden="true">
+                                <use href="img/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="socials__item">
-                        <a class="socials__link" href="#"></a>
+                        <a class="socials__link" href="#">
+                            <span class="visually-hidden">Linked In</span>
+                            <svg class="socials__icon" width="14" height="14" aria-hidden="true">
+                                <use href="img/sprite.svg#linkedin"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -69,13 +86,13 @@
                         </div>
                     </dl>
                 </div>
-                <img class="promo__image" src="" alt="Обложка книги под названием The dark light.">
+                <img class="promo__image" src="img/content/dark-light.jpg" width="614" height="822" alt="Обложка книги под названием The dark light.">
             </section>
             <section class="main__books books">
                 <h2 class="books__title title">The Author’s Book</h2>
                 <ul class="books__list">
                     <li class="books__item book-item">
-                        <img class="book-item__image" src="" alt="Обложка книги с названием Atomic one's.">
+                        <img class="book-item__image" src="img/content/atomic-min.jpg" width="307" height="404" alt="Обложка книги с названием Atomic one's.">
                         <div class="book-item__wrapper">
                             <span class="book-item__title title">Atomic One’s</span>
                             <span class="book-item__price">$ 13.84 USD</span>
@@ -85,7 +102,7 @@
                         </div>
                     </li>
                     <li class="books__item book-item">
-                        <img class="book-item__image" src="" alt="Обложка книги с названием The dark light.">
+                        <img class="book-item__image" src="img/content/dark-light-min.jpg" width="307" height="404" alt="Обложка книги с названием The dark light.">
                         <div class="book-item__wrapper">
                             <span class="book-item__title title">The Dark Light</span>
                             <span class="book-item__price">$ 86.11 USD</span>
@@ -97,7 +114,7 @@
                 </ul>
             </section>
             <section class="main__author author">
-                <img class="author__photo" src="" alt="Фотография седого мужчины в очках за ноутбуком.">
+                <img class="author__photo" src="img/content/author.jpg" width="525" height="620" alt="Фотография седого мужчины в очках за ноутбуком.">
                 <div class="author__wrapper">
                     <h2 class="author__title title">About the Author</h2>
                     <p class="author__about">We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</p>
@@ -128,19 +145,19 @@
             <section class="main__trust trust">
                 <h2 class="trust__title title">Trusted By The Best</h2>
                 <ul class="trust__list">
-                    <li class="trust__item trust-item">
+                    <li class="trust__item trust-item trust-item--amazen">
                         <span class="trust-item__title title">Amazen Corp.</span>
                         <p class="trust-item__description">They has been helping readers, music lovers, and videophiles find quality material.</p>
                     </li>
-                    <li class="trust__item trust-item">
+                    <li class="trust__item trust-item trust-item--megan">
                         <span class="trust-item__title title">Megan Books</span>
                         <p class="trust-item__description">We help physical bookstores manage their overstock to the book inventory.</p>
                     </li>
-                    <li class="trust__item trust-item">
+                    <li class="trust__item trust-item trust-item--megank">
                         <span class="trust-item__title title">Megank</span>
                         <p class="trust-item__description">Bookstore serving up the full spectrum of Black literature and wine black books.</p>
                     </li>
-                    <li class="trust__item trust-item">
+                    <li class="trust__item trust-item trust-item--urban">
                         <span class="trust-item__title title">Urban Store</span>
                         <p class="trust-item__description">We also carry the latest records, issues of all of your favorite comic books.</p>
                     </li>
@@ -168,7 +185,7 @@
                             <p class="benefits-item__description">Analyze non-relational data using HBase, Cassandra, and MongoDB.</p>
                         </li>
                     </ul>
-                    <img class="benefits__image" src="" alt="Фотография девушки с книгой в руках.">
+                    <img class="benefits__image" src="img/content/girl-book.jpg" width="535" height="632" alt="Фотография девушки с книгой в руках.">
                 </div>
             </section>
             <section class="main__trail trail">
@@ -246,7 +263,7 @@
                 <ul class="reviews__list">
                     <li class="reviews__item reviews-item">
                         <div class="reviews-item__wrapper">
-                            <img class="reviews-item__avatar" src="" alt="">
+                            <img class="reviews-item__avatar" src="img/content/avatar-1.png" width="85" height="85" alt="Фотография кудрявого парня на аватарке.">
                             <div class="reviews-item__name-wrapper">
                                 <span class="reviews-item__name">James Williams</span>
                                 <div class="reviews-item__rating rating"></div>
@@ -257,7 +274,7 @@
                     </li>
                     <li class="reviews__item reviews-item">
                         <div class="reviews-item__wrapper">
-                            <img class="reviews-item__avatar" src="" alt="">
+                            <img class="reviews-item__avatar" src="img/content/avatar-2.png" width="85" height="85" alt="Фотография молодого человека в очках на аватарке.">
                             <div class="reviews-item__name-wrapper">
                                 <span class="reviews-item__name">Chris Adams</span>
                                 <div class="reviews-item__rating rating"></div>
@@ -268,7 +285,7 @@
                     </li>
                     <li class="reviews__item reviews-item">
                         <div class="reviews-item__wrapper">
-                            <img class="reviews-item__avatar" src="" alt="">
+                            <img class="reviews-item__avatar" src="img/content/avatar-3.png" width="85" height="85" alt="Фотография светловолосой девушки на аватарке">
                             <div class="reviews-item__name-wrapper">
                                 <span class="reviews-item__name">Angeline Flora</span>
                                 <div class="reviews-item__rating rating"></div>
@@ -283,7 +300,7 @@
                 <h2 class="articles__title title">Articles & Resources</h2>
                 <ul class="articles__list">
                     <li class="articles__item articles-item">
-                        <img class="articles-item__image" src="" alt="">
+                        <img class="articles-item__image" src="img/content/article-1.jpg" width="420" height="350" alt="Девушка в очках за ноутбуком с телефоном в руках делает запись в блокноте.">
                         <div class="articles-item__wrapper">
                             <span class="articles-item__title title">Significant reading has more info number</span>
                             <p class="articles-item__description">Override the digital divide with additional clickthroughs from DevOps for real-time schemas.</p>
@@ -294,7 +311,7 @@
                         </div>
                     </li>
                     <li class="articles__item articles-item">
-                        <img class="articles-item__image" src="" alt="">
+                        <img class="articles-item__image" src="img/content/article-2.jpg" width="420" height="350" alt="Девушка в очках с собакой читает книгу.">
                         <div class="articles-item__wrapper">
                             <span class="articles-item__title title">Many variations of pass majority have suffered</span>
                             <p class="articles-item__description">Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta test.</p>
@@ -305,7 +322,7 @@
                         </div>
                     </li>
                     <li class="articles__item articles-item">
-                        <img class="articles-item__image" src="" alt="">
+                        <img class="articles-item__image" src="img/content/article-3.jpg" width="420" height="350" alt="Темнокожий парень в очках читает книгу.">
                         <div class="articles-item__wrapper">
                             <span class="articles-item__title title">Words which don’t look even slightly believable</span>
                             <p class="articles-item__description">Podcasting operational change management inside of workflows to establish a framework.</p>
@@ -333,22 +350,46 @@
         </main>
         <footer class="page__footer footer">
             <div class="footer__wrapper">
-                <a class="header__logo logo"></a>
-                <div class="header__socials socials">
-                    <ul class="socials__list">
-                        <li class="socials__item">
-                            <a class="socials__link socials__link--light" href="#"></a>
-                        </li>
-                        <li class="socials__item">
-                            <a class="socials__link socials__link--light" href="#"></a>
-                        </li>
-                        <li class="socials__item">
-                            <a class="socials__link socials__link--light" href="#"></a>
-                        </li>
-                        <li class="socials__item">
-                            <a class="socials__link socials__link--light" href="#"></a>
-                        </li>
-                    </ul>
+                <div class="footer__column footer-column">
+                    <a class="footer__logo logo">
+                        <img src="img/logo.svg" width="119" height="35" alt="Логотип с изображением книги и надписью Pages.">
+                    </a>
+                    <div class="footer__socials socials">
+                        <ul class="socials__list">
+                            <li class="socials__item">
+                                <a class="socials__link socials__link--light" href="#">
+                                    <span class="visually-hidden">Facebook</span>
+                                    <svg class="socials__icon socials__icon--light" width="10" height="16" aria-hidden="true">
+                                        <use href="img/sprite.svg#fb"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link socials__link--light" href="#">
+                                    <span class="visually-hidden">Twitter</span>
+                                    <svg class="socials__icon socials__icon--light" width="16" height="14" aria-hidden="true">
+                                        <use href="img/sprite.svg#twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link socials__link--light" href="#">
+                                    <span class="visually-hidden">Linked In</span>
+                                    <svg class="socials__icon socials__icon--light" width="14" height="14" aria-hidden="true">
+                                        <use href="img/sprite.svg#linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <a class="socials__link socials__link--light" href="#">
+                                    <span class="visually-hidden">Instagram</span>
+                                    <svg class="socials__icon socials__icon--light" width="17" height="18" aria-hidden="true">
+                                        <use href="img/sprite.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="footer__column footer-column">
                     <span class="footer-column__title title">Explore</span>

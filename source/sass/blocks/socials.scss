@@ -7,13 +7,28 @@
 }
 
 .socials__link {
+  position: relative;
   display: block;
   width: 45px;
   height: 45px;
   background-color: $socialsBgColor;
+  color: $socialsColor;
 
   &--light {
     border: 1px solid $secondaryColor;
     background-color: inherit;
+  }
+}
+
+.socials__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  &--light {
+    color: $socialsBgColor;
   }
 }
