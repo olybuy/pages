@@ -24,17 +24,25 @@
 }
 
 .book-item__description {
+  display: block;
   margin-bottom: 13px;
 
   @include font-style(19px, 28px);
 }
 
 .book-item__property {
+  display: flex;
+  gap: 10px;
+  align-items: center;
   margin-bottom: 27px;
   color: $primaryColor;
   font-family: "Cardo", "Times New Roman", sans-serif;
 
   @include font-style(24px, 28px);
+
+  &::before {
+    @include dot;
+  }
 }
 
 .book-item__order-button {
