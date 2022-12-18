@@ -1,0 +1,17 @@
+.contacts {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+}
+
+.contacts__item {
+  color: $titleContrastColor;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+
+  @include font-style(18px, 27px);
+}
+
+.contacts__value {
+  color: $contrastTextColor;
+
+  @include font-style(17px, 27px);
+}

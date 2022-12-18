@@ -1,0 +1,42 @@
+.articles-item__image {
+  width: 420px;
+  height: 350px;
+}
+
+.articles-item__wrapper {
+  padding: 25px 30px 30px;
+  background-color: $trailColor;
+}
+
+.articles-item__title {
+  margin-bottom: 19px;
+  color: $primaryColor;
+
+  @include font-style(24px, 34px);
+}
+
+.articles-item__description {
+  margin: 0;
+  margin-bottom: 13px;
+
+  @include font-style(19px, 30px);
+}
+
+.articles-item__more {
+  display: flex;
+  justify-content: space-between;
+}
+
+.articles-item__link {
+  color: $primaryColor;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+  text-decoration: none;
+
+  @include font-style(19px, 23px);
+}
+
+.articles-item__date {
+  color: $primaryColor;
+
+  @include font-style(16px, 25px);
+}

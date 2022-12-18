@@ -1,0 +1,21 @@
+.subscribe__wrapper {
+  padding: 100px 150px 115px;
+  background-color: $secondaryColor;
+}
+
+.subscribe__title {
+  margin-bottom: 51px;
+  color: $primaryColor;
+  text-align: center;
+
+  @include font-style(42px, 50px);
+}
+
+.subscribe__description {
+  margin: 0;
+  margin-bottom: 50px;
+  color: $primaryColor;
+  text-align: center;
+
+  @include font-style(18px, 28px);
+}

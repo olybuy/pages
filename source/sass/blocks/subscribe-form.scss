@@ -1,0 +1,32 @@
+.subscribe-form {
+  display: flex;
+  gap: 16px;
+}
+
+.subscribe-form__label {
+  flex-grow: 1;
+}
+
+.subscribe-form__input {
+  width: 100%;
+  height: 100%;
+  padding: 19px 39px 20px;
+  background-color: $inputColor;
+  border: none;
+  box-sizing: border-box;
+}
+
+.subscribe-form__button {
+  min-width: 328px;
+  color: $secondaryTextColor;
+  background-color: $primaryColor;
+  font-family: "Inter", "Arial", sans-serif;
+
+  @include font-style(18px, 30px);
+}
+
+.subscribe-form__input::placeholder {
+  color: $contrastTextColor;
+
+  @include font-style(18px, 30px);
+}

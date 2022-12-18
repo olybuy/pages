@@ -11,4 +11,9 @@
   width: 45px;
   height: 45px;
   background-color: $socialsBgColor;
+
+  &--light {
+    border: 1px solid $secondaryColor;
+    background-color: inherit;
+  }
 }

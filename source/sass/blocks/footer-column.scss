@@ -1,0 +1,25 @@
+.footer-column {
+  padding: 0 30px;
+}
+
+.footer-column__title {
+  margin-bottom: 14px;
+  color: $titleContrastColor;
+
+  @include font-style(24px, 33px);
+}
+
+.footer-column__list {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+
+  @include list-reset;
+}
+
+.footer-column__link {
+  color: $contrastTextColor;
+  text-decoration: none;
+
+  @include font-style(18px, 30px);
+}
