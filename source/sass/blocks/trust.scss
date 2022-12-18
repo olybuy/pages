@@ -9,6 +9,7 @@
 .trust__list {
   display: flex;
   text-align: center;
+  gap: 37px;
 
   @include list-reset;
 }

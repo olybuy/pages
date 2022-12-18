@@ -1,5 +1,9 @@
+.benefits {
+  position: relative;
+}
+
 .benefits__title {
-  margin-bottom: 116px;
+  margin-bottom: 90px;
   color: $primaryColor;
   text-align: center;
 
@@ -9,6 +13,7 @@
 .benefits__wrapper {
   display: flex;
   gap: 109px;
+  align-items: start;
 }
 
 .benefits__list {
@@ -18,4 +23,19 @@
   counter-reset: benefits;
 
   @include list-reset;
+
+  padding-top: 30px;
+}
+
+.benefits__frame {
+  display: block;
+  width: 535px;
+  height: 632px;
+  border: 10px solid $secondaryColor;
+}
+
+.benefits__image {
+  position: absolute;
+  top: 283px;
+  right: 110px;
 }
