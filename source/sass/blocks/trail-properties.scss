@@ -10,10 +10,17 @@
 }
 
 .trail-properties__item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
   color: $primaryColor;
   font-family: "Cardo", "Times New Roman", sans-serif;
 
   @include font-style(22px, 30px);
+
+  &::before {
+    @include dot;
+  }
 }
 
 .trail-properties__value {

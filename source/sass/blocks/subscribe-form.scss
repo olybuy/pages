@@ -14,6 +14,8 @@
   background-color: $inputColor;
   border: none;
   box-sizing: border-box;
+
+  @include font-style(18px, 30px);
 }
 
 .subscribe-form__button {

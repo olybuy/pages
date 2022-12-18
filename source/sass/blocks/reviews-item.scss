@@ -33,6 +33,7 @@
 }
 
 .reviews-item__description {
+  margin: 0;
   color: $contrastTextColor;
 
   @include font-style(18px, 29px);
