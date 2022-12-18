@@ -1,12 +1,14 @@
-.rating {
-  height: 13px;
-  background-color: #ffca42;
-}
-
 .rating__numbers {
   display: block;
+  font-family: "Cardo", "Times New Roman", sans-serif;
+  color: $primaryColor;
+
+  @include font-style(22px, 26px);
 }
 
 .rating__note {
   display: block;
+  color: $primaryColor;
+
+  @include font-style(18px, 28px);
 }

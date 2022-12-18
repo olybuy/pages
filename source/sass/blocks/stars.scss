@@ -1,0 +1,32 @@
+.stars {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 12px;
+
+  &--inside {
+    .stars__item {
+      width: 11px;
+      height: 11px;
+    }
+  }
+}
+
+.stars__item {
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid $secondaryColor;
+
+  &--full {
+    background-color: $secondaryColor;
+  }
+
+  &--half {
+    background: linear-gradient(to right, $secondaryColor 50%, #ffffff 50%);
+  }
+
+  &--half-dark {
+    background: linear-gradient(to right, $secondaryColor 50%, $primaryColor 50%);
+  }
+}

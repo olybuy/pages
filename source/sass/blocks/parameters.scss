@@ -4,9 +4,16 @@
 }
 
 .parameters__wrapper {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 10px;
+  row-gap: 12px;
+  align-items: center;
   margin: 0;
+
+  &::before {
+    @include dot;
+  }
 }
 
 .parameters__item {
@@ -17,6 +24,9 @@
 
 .parameters__value {
   margin: 0;
+  grid-column: 2 / 2;
+  justify-self: end;
+  color: $contrastTextColor;
 
   @include font-style(17px, 27px);
 }

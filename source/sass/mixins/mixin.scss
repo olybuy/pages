@@ -37,3 +37,12 @@
     @include font-style(23px, 29px);
   }
 }
+
+@mixin dot {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: $secondaryColor;
+  content: "";
+}
