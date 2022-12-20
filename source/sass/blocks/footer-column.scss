@@ -22,4 +22,12 @@
   text-decoration: none;
 
   @include font-style(18px, 30px);
+
+  &:hover {
+    color: $secondaryColor;
+  }
+
+  &:active {
+    color: rgba($contrastTextColor, 0.2);
+  }
 }

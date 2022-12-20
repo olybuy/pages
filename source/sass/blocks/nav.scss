@@ -15,4 +15,12 @@
   text-decoration: none;
 
   @include font-style(17px, 25px);
+
+  &:hover {
+    color: $secondaryColor;
+  }
+
+  &:active {
+    color: rgba($contrastTextColor, 0.2);
+  }
 }

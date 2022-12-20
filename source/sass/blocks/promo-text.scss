@@ -62,6 +62,22 @@
     background-color: $secondaryTextColor;
     content: "";
   }
+
+  &:hover {
+    color: $secondaryColor;
+
+    &::before {
+      background-color: $secondaryColor;
+    }
+  }
+
+  &:active {
+    color: rgba($secondaryTextColor, 0.2);
+
+    &::before {
+      background-color: rgba($secondaryTextColor, 0.2);
+    }
+  }
 }
 
 .promo-text__order-button {

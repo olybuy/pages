@@ -37,4 +37,13 @@
 .trail__link {
   color: $primaryColor;
   text-decoration: none;
+
+  &:hover {
+    color: $secondaryColor;
+  }
+
+  &:active {
+    color: $primaryColor;
+    opacity: 0.2;
+  }
 }

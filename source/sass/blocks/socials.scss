@@ -18,6 +18,14 @@
     border: 1px solid $secondaryColor;
     background-color: inherit;
   }
+
+  &:hover {
+    background-color: $secondaryColor;
+  }
+
+  &:active {
+    opacity: 0.2;
+  }
 }
 
 .socials__icon {

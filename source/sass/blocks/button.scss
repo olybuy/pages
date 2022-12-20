@@ -13,4 +13,10 @@
     background-color: inherit;
     border: 2px solid $secondaryColor;
   }
+
+  &:hover {
+    background-color: $primaryColor;
+    color: $secondaryColor;
+    outline: 1px solid $secondaryColor;
+  }
 }
